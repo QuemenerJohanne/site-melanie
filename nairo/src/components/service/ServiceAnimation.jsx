@@ -2,22 +2,22 @@ import React from "react";
 
 const ServiceContent = [
   {
-    icon: "icon-mobile",
-    title: "Web Design",
+    icon: "icon-linegraph",
+    title: "Accupuncture",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "",
   },
   {
-    icon: "icon-desktop",
-    title: "Web Development",
+    icon: "icon-beaker",
+    title: "Phytothérapie",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "200",
   },
   {
-    icon: "icon-target",
-    title: "Seo Marketing",
+    icon: "icon-dial",
+    title: "Soins énergétiques",
     descriptions: `Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
     eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
     delayAnimation: "400",

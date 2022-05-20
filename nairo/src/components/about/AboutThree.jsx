@@ -107,21 +107,21 @@ const AboutThree = () => {
             {/* End col */}
           </div>
 
-          {/* separated */}
-          <div
-            className="separated"
-            style={{
-              backgroundImage: `url(${
-                process.env.PUBLIC_URL + "img/border-dark.png"
-              })`,
-            }}
-          ></div>
-          {/* End separated */}
-          <div className="title">
-            <h3>What I do?</h3>
-          </div>
-          <Services />
-          {/* End .row */}
+          {/*/!* separated *!/*/}
+          {/*<div*/}
+          {/*  className="separated"*/}
+          {/*  style={{*/}
+          {/*    backgroundImage: `url(${*/}
+          {/*      process.env.PUBLIC_URL + "img/border-dark.png"*/}
+          {/*    })`,*/}
+          {/*  }}*/}
+          {/*></div>*/}
+          {/*/!* End separated *!/*/}
+          {/*<div className="title">*/}
+          {/*  <h3>What I do?</h3>*/}
+          {/*</div>*/}
+          {/*<Services />*/}
+          {/*/!* End .row *!/*/}
 
           {/* separated */}
           <div

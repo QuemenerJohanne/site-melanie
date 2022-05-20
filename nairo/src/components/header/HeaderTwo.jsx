@@ -8,8 +8,11 @@ import {
   FiPhoneOutgoing,
 } from "react-icons/fi";
 import { FaHome, FaBlog } from "react-icons/fa";
+import { GiBarracksTent, GiBeamsAura, GiCarillon, GiMagicPalm, GiWhiteBook, GiThink} from "react-icons/gi";
 
-import female from './feminist.png';
+import lotus from './lotus.png';
+import flower from './flower.png';
+import emotion from './emotion.png';
 
 
 
@@ -44,7 +47,7 @@ const HeaderTwo = () => {
           <div className="hl-top">
             <div className="hl-logo">
               <Link to="/">
-                  <img src={female} alt="Logo" />
+                  <img src={emotion} alt="Logo" />
               </Link>
             </div>
           </div>
@@ -58,37 +61,37 @@ const HeaderTwo = () => {
           >
             <li>
               <a className="nav-link " href="#home" onClick={handleClick}>
-                <FaHome />
-                <span className="item">Home</span>
+                <GiBarracksTent />
+                <span className="item">Acceuil</span>
               </a>
             </li>
             <li>
               <a className="nav-link" href="#about" onClick={handleClick}>
-                <FiUser />
-                <span className="item">About</span>
+                <GiBeamsAura />
+                <span className="item">A propos</span>
               </a>
             </li>
             <li>
               <a className="nav-link" href="#resume" onClick={handleClick}>
-                <FiFileText />
-                <span className="item">Resume</span>
+                <GiWhiteBook />
+                <span className="item">Formation</span>
               </a>
             </li>
             <li>
               <a className="nav-link" href="#work" onClick={handleClick}>
-                <FiBriefcase />
-                <span className="item">Work</span>
+                <GiMagicPalm />
+                <span className="item">Activités</span>
               </a>
             </li>
             <li>
               <a className="nav-link" href="#blog" onClick={handleClick}>
-                <FaBlog />
-                <span className="item">Blog</span>
+                <GiThink />
+                <span className="item">S'informer</span>
               </a>
             </li>
             <li>
               <a className="nav-link" href="#contactus" onClick={handleClick}>
-                <FiPhoneOutgoing />
+                <GiCarillon />
                 <span className="item">Contact</span>
               </a>
             </li>
